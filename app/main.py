@@ -39,10 +39,8 @@ async def log_requests(request: Request, call_next):
 # Configuração CORS
 # ATENÇÃO: Em produção, restrinja as origens!
 origins = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "http://localhost:55652",
-    "http://127.0.0.1:55652",
+    "https://jrglassworks.netlify.app",
+    "https://68463dca3f442000999f39c--jrglassworks.netlify.app"
 ]
 
 app.add_middleware(
