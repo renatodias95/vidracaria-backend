@@ -40,7 +40,8 @@ async def log_requests(request: Request, call_next):
 # ATENÇÃO: Em produção, restrinja as origens!
 origins = [
     "https://jrglassworks.netlify.app",
-    "https://68463dca3f442000999f39c--jrglassworks.netlify.app"
+    "https://68463dca3f442000999f39c--jrglassworks.netlify.app",
+    "https://jrglassworks.com"
 ]
 
 app.add_middleware(
